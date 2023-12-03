@@ -1,6 +1,9 @@
 package twoknightsgame.state;
 
 import org.junit.jupiter.api.Test;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.Tile;
+import twoknightsgame.state.piece.Color;
 
 import static org.junit.jupiter.api.Assertions.*;
 

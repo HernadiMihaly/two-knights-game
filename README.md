@@ -1,4 +1,5 @@
 # Two Knights Game Java Project
+> **Note:** This project is my first Java project ever that was created in the beginning of 2022.
 ## Description
 - A simple and exciting competitive game between 2 players, each with 2 Chess Knights.
 - Played on a board with specially designed pieces of contrasting colors (black, white).

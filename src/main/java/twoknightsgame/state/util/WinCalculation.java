@@ -1,6 +1,10 @@
-package twoknightsgame.state;
+package twoknightsgame.state.util;
 
 import org.tinylog.Logger;
+import twoknightsgame.state.board.Board;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.Tile;
+import twoknightsgame.state.piece.Color;
 
 import static java.lang.Math.abs;
 
@@ -71,7 +75,7 @@ public class WinCalculation {
     }
 
     private boolean isLeftDiagonalWin(Tile tile) {
-        int leftDiagCounter = 0;
+        int leftDiagonalCounter = 0;
 
         Point start = new Point(0, 0);
         Point end = new Point(0, 0);
@@ -79,11 +83,11 @@ public class WinCalculation {
         chooseWhichLeftMatrix(start, end, tile);
         int distance = end.getX() - start.getX();
 
-        return calculateLeftDiagWin(leftDiagCounter, start, distance);
+        return calculateLeftDiagonalWin(leftDiagonalCounter, start, distance);
 
     }
 
-    private boolean calculateLeftDiagWin(int leftDiagCounter, Point start, int distance) {
+    private boolean calculateLeftDiagonalWin(int leftDiagCounter, Point start, int distance) {
         for (int k = 0; k < distance; k++) {
             if (!chessBoard.getCurrentBoard()[start.getX() + k + 1][start.getY() + k + 1].getColor().equals(Color.EMPTY)
                     && chessBoard.getCurrentBoard()[start.getX() + k][start.getY() + k].getColor()
@@ -107,7 +111,7 @@ public class WinCalculation {
             setLeftUpTriMatrixPoints(start, end, tile);
         }
         if (tile.getPoint().getX() == tile.getPoint().getY()) {
-            setLeftMainDiagPoints(start, end);
+            setLeftMainDiagonalPoints(start, end);
         }
     }
 
@@ -125,7 +129,7 @@ public class WinCalculation {
         end.setX(9 - start.getY());
     }
 
-    private void setLeftMainDiagPoints(Point start, Point end) {
+    private void setLeftMainDiagonalPoints(Point start, Point end) {
         start.setX(0);
         start.setY(0);
         end.setX(9);
@@ -133,18 +137,18 @@ public class WinCalculation {
     }
 
     private boolean rightDiagonalWin(Tile tile) {
-        int rightDiagCounter = 0;
+        int rightDiagonalCounter = 0;
         Point start = new Point(0, 0);
         Point end = new Point(0, 0);
 
         chooseWhichRightMatrix(start, end, tile);
         int distance = abs(start.getX() - end.getX());
 
-        return calculateRightDiagWin(rightDiagCounter, start, distance);
+        return calculateRightDiagonalWin(rightDiagonalCounter, start, distance);
 
     }
 
-    private boolean calculateRightDiagWin(int rightDiagCounter, Point start, int distance) {
+    private boolean calculateRightDiagonalWin(int rightDiagCounter, Point start, int distance) {
         for (int k = 0; k < distance; k++) {
             if (!chessBoard.getCurrentBoard()[start.getX() + k + 1][start.getY() - k - 1].getColor().equals(Color.EMPTY)
                     && chessBoard.getCurrentBoard()[start.getX() + k][start.getY() - k].getColor()

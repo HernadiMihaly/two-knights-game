@@ -1,7 +1,6 @@
-package twoknightsgame.state;
+package twoknightsgame.model;
 
 import org.tinylog.Logger;
-import twoknightsgame.state.entity.Game;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

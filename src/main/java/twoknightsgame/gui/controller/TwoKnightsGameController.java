@@ -10,8 +10,14 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 import org.tinylog.Logger;
-import twoknightsgame.state.*;
-import twoknightsgame.state.entity.Game;
+import twoknightsgame.model.Database;
+import twoknightsgame.model.Game;
+import twoknightsgame.state.board.Board;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.SimpleBoard;
+import twoknightsgame.state.board.Tile;
+import twoknightsgame.state.piece.Color;
+import twoknightsgame.state.piece.Knight;
 
 import java.net.URL;
 import java.util.*;

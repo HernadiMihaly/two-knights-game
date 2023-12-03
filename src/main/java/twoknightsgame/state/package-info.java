@@ -1,4 +1,4 @@
 /**
- * A játék reprezentációját biztosító osztályokat, és az adatbázis kapcsolathoz szükséges osztályokat tartalmazó csomag.
+ * A játék reprezentációját biztosító osztályokat és számításokat tartalmazó csomag.
  */
 package twoknightsgame.state;

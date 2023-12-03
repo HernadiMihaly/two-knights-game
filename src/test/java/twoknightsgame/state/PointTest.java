@@ -4,6 +4,7 @@ import org.tinylog.Logger;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import twoknightsgame.state.board.Point;
 
 import static org.junit.jupiter.api.Assertions.*;
 

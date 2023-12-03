@@ -4,6 +4,10 @@ import org.tinylog.Logger;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.SimpleBoard;
+import twoknightsgame.state.board.Tile;
+import twoknightsgame.state.piece.Color;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,7 +74,7 @@ class SimpleBoardTest {
 
     @Test
     void testPaint1() {
-        board.Paint(new Point(1, 1), Color.WHITE);
+        board.paint(new Point(1, 1), Color.WHITE);
         Color paintedColor = board.getCurrentBoard()[1][1].getColor();
 
         Color expectedColor = Color.WHITE;
@@ -80,7 +84,7 @@ class SimpleBoardTest {
 
     @Test
     void testPaint2() {
-        board.Paint(new Point(4, 1), Color.EMPTY);
+        board.paint(new Point(4, 1), Color.EMPTY);
         Color paintedColor = board.getCurrentBoard()[4][1].getColor();
 
         Color expectedColor = Color.EMPTY;
@@ -90,7 +94,7 @@ class SimpleBoardTest {
 
     @Test
     void testPaint3() {
-        board.Paint(new Point(6, 9), Color.BLACK);
+        board.paint(new Point(6, 9), Color.BLACK);
         Color paintedColor = board.getCurrentBoard()[6][9].getColor();
 
         Color expectedColor = Color.BLACK;

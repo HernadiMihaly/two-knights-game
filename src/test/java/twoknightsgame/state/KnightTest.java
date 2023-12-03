@@ -5,6 +5,11 @@ import org.tinylog.Logger;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.SimpleBoard;
+import twoknightsgame.state.board.Tile;
+import twoknightsgame.state.piece.Color;
+import twoknightsgame.state.piece.Knight;
 
 import static org.junit.jupiter.api.Assertions.*;
 

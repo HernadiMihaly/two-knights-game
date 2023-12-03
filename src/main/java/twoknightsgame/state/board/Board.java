@@ -1,4 +1,6 @@
-package twoknightsgame.state;
+package twoknightsgame.state.board;
+
+import twoknightsgame.state.piece.Color;
 
 import java.util.List;
 
@@ -20,7 +22,7 @@ public interface Board {
      * @param p A pont amelyhez tartozó mezőt a táblán be akarjuk színezni
      * @param c A szín amelyre az adott tábla mezőt be akarjuk színezni
      */
-    void Paint(Point p, Color c);
+    void paint(Point p, Color c);
 
     /**
      * A jelenlegi tábla állapotát tükröző metódus, egy getter amely visszaadja a táblát.

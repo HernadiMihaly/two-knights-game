@@ -1,4 +1,6 @@
-package twoknightsgame.state;
+package twoknightsgame.state.board;
+
+import twoknightsgame.state.piece.Color;
 
 import java.util.Objects;
 

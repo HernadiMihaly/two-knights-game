@@ -1,4 +1,4 @@
-package twoknightsgame.state.entity;
+package twoknightsgame.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

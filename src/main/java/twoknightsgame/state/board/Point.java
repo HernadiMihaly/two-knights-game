@@ -1,4 +1,4 @@
-package twoknightsgame.state;
+package twoknightsgame.state.board;
 
 import java.util.Objects;
 

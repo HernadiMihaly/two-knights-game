@@ -4,6 +4,11 @@ import org.tinylog.Logger;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import twoknightsgame.state.board.Board;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.SimpleBoard;
+import twoknightsgame.state.piece.Color;
+import twoknightsgame.state.util.WinCalculation;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,11 +28,11 @@ class WinCalculationTest {
 
     @Test
     void winHorizontally() {
-        board.Paint(new Point(9, 0), Color.BLACK);
-        board.Paint(new Point(9, 1), Color.BLACK);
-        board.Paint(new Point(9, 2), Color.BLACK);
-        board.Paint(new Point(9, 3), Color.BLACK);
-        board.Paint(new Point(9, 4), Color.BLACK);
+        board.paint(new Point(9, 0), Color.BLACK);
+        board.paint(new Point(9, 1), Color.BLACK);
+        board.paint(new Point(9, 2), Color.BLACK);
+        board.paint(new Point(9, 3), Color.BLACK);
+        board.paint(new Point(9, 4), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[9][0])),
@@ -41,11 +46,11 @@ class WinCalculationTest {
 
     @Test
     void winVertically() {
-        board.Paint(new Point(3, 2), Color.BLACK);
-        board.Paint(new Point(4, 2), Color.BLACK);
-        board.Paint(new Point(5, 2), Color.BLACK);
-        board.Paint(new Point(6, 2), Color.BLACK);
-        board.Paint(new Point(7, 2), Color.BLACK);
+        board.paint(new Point(3, 2), Color.BLACK);
+        board.paint(new Point(4, 2), Color.BLACK);
+        board.paint(new Point(5, 2), Color.BLACK);
+        board.paint(new Point(6, 2), Color.BLACK);
+        board.paint(new Point(7, 2), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[3][2])),
@@ -59,11 +64,11 @@ class WinCalculationTest {
 
     @Test
     void winLeftMainDiagTest() {
-        board.Paint(new Point(5, 5), Color.BLACK);
-        board.Paint(new Point(6, 6), Color.BLACK);
-        board.Paint(new Point(7, 7), Color.BLACK);
-        board.Paint(new Point(8, 8), Color.BLACK);
-        board.Paint(new Point(9, 9), Color.BLACK);
+        board.paint(new Point(5, 5), Color.BLACK);
+        board.paint(new Point(6, 6), Color.BLACK);
+        board.paint(new Point(7, 7), Color.BLACK);
+        board.paint(new Point(8, 8), Color.BLACK);
+        board.paint(new Point(9, 9), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[5][5])),
@@ -78,11 +83,11 @@ class WinCalculationTest {
 
     @Test
     void winLeftLowerDiagTest() {
-        board.Paint(new Point(5, 1), Color.BLACK);
-        board.Paint(new Point(6, 2), Color.BLACK);
-        board.Paint(new Point(7, 3), Color.BLACK);
-        board.Paint(new Point(8, 4), Color.BLACK);
-        board.Paint(new Point(9, 5), Color.BLACK);
+        board.paint(new Point(5, 1), Color.BLACK);
+        board.paint(new Point(6, 2), Color.BLACK);
+        board.paint(new Point(7, 3), Color.BLACK);
+        board.paint(new Point(8, 4), Color.BLACK);
+        board.paint(new Point(9, 5), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[5][1])),
@@ -96,11 +101,11 @@ class WinCalculationTest {
 
     @Test
     void winLeftUpperDiagTest() {
-        board.Paint(new Point(1, 4), Color.BLACK);
-        board.Paint(new Point(2, 5), Color.BLACK);
-        board.Paint(new Point(3, 6), Color.BLACK);
-        board.Paint(new Point(4, 7), Color.BLACK);
-        board.Paint(new Point(5, 8), Color.BLACK);
+        board.paint(new Point(1, 4), Color.BLACK);
+        board.paint(new Point(2, 5), Color.BLACK);
+        board.paint(new Point(3, 6), Color.BLACK);
+        board.paint(new Point(4, 7), Color.BLACK);
+        board.paint(new Point(5, 8), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[1][4])),
@@ -114,11 +119,11 @@ class WinCalculationTest {
 
     @Test
     void winRightMainDiagTest() {
-        board.Paint(new Point(2, 7), Color.BLACK);
-        board.Paint(new Point(3, 6), Color.BLACK);
-        board.Paint(new Point(4, 5), Color.BLACK);
-        board.Paint(new Point(5, 4), Color.BLACK);
-        board.Paint(new Point(6, 3), Color.BLACK);
+        board.paint(new Point(2, 7), Color.BLACK);
+        board.paint(new Point(3, 6), Color.BLACK);
+        board.paint(new Point(4, 5), Color.BLACK);
+        board.paint(new Point(5, 4), Color.BLACK);
+        board.paint(new Point(6, 3), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[2][7])),
@@ -132,11 +137,11 @@ class WinCalculationTest {
 
     @Test
     void winRightLowerDiagTest() {
-        board.Paint(new Point(5, 9), Color.BLACK);
-        board.Paint(new Point(6, 8), Color.BLACK);
-        board.Paint(new Point(7, 7), Color.BLACK);
-        board.Paint(new Point(8, 6), Color.BLACK);
-        board.Paint(new Point(9, 5), Color.BLACK);
+        board.paint(new Point(5, 9), Color.BLACK);
+        board.paint(new Point(6, 8), Color.BLACK);
+        board.paint(new Point(7, 7), Color.BLACK);
+        board.paint(new Point(8, 6), Color.BLACK);
+        board.paint(new Point(9, 5), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[5][9])),
@@ -150,11 +155,11 @@ class WinCalculationTest {
 
     @Test
     void winRightUpperDiagTest() {
-        board.Paint(new Point(4, 4), Color.BLACK);
-        board.Paint(new Point(5, 3), Color.BLACK);
-        board.Paint(new Point(6, 2), Color.BLACK);
-        board.Paint(new Point(7, 1), Color.BLACK);
-        board.Paint(new Point(8, 0), Color.BLACK);
+        board.paint(new Point(4, 4), Color.BLACK);
+        board.paint(new Point(5, 3), Color.BLACK);
+        board.paint(new Point(6, 2), Color.BLACK);
+        board.paint(new Point(7, 1), Color.BLACK);
+        board.paint(new Point(8, 0), Color.BLACK);
 
         assertAll(
                 () -> assertTrue(winCalculation.isWon(board.getCurrentBoard()[4][4])),

@@ -14,7 +14,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Pair;
-import twoknightsgame.state.Color;
+import twoknightsgame.state.piece.Color;
 
 import java.io.IOException;
 import java.net.URL;

@@ -1,6 +1,10 @@
-package twoknightsgame.state;
+package twoknightsgame.state.piece;
 
 import org.tinylog.Logger;
+import twoknightsgame.state.util.WinCalculation;
+import twoknightsgame.state.board.Board;
+import twoknightsgame.state.board.Point;
+import twoknightsgame.state.board.Tile;
 
 /**
  * A {@code Knight} osztály biztosítja a műveleteket a lovak mozgatásához.
@@ -101,7 +105,7 @@ public class Knight {
     public void whiteMove(Point to) {
         whiteKnight = to;
         Logger.debug("{} moved to {} point", Color.WHITE, to.getX() + "," + to.getY());
-        chessBoard.Paint(whiteKnight, Color.WHITE);
+        chessBoard.paint(whiteKnight, Color.WHITE);
         if (winCalculation.isWon(chessBoard.getCurrentBoard()[whiteKnight.getX()][whiteKnight.getY()])) {
             isGameOver = true;
             isWhiteWon = true;
@@ -119,7 +123,7 @@ public class Knight {
     public void blackMove(Point to) {
         blackKnight = to;
         Logger.debug("{} moved to {} point", Color.BLACK, to.getX() + "," + to.getY());
-        chessBoard.Paint(blackKnight, Color.BLACK);
+        chessBoard.paint(blackKnight, Color.BLACK);
         if (winCalculation.isWon(chessBoard.getCurrentBoard()[blackKnight.getX()][blackKnight.getY()])) {
             isGameOver = true;
             isBlackWon = true;
