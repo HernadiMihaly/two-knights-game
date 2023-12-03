@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="twoknightsgame.gui.controller.TwoKnightsStartController">
+   <children>
+      <Pane id="alertPane" fx:id="alertPane" prefHeight="25.0" prefWidth="387.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc2618" height="25.0" layoutX="63.0" stroke="BLACK" strokeType="INSIDE" width="261.0" />
+            <Text id="alertText" fx:id="alertText" fill="#ebe5e5" layoutX="63.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="261.0">
+               <font>
+                  <Font name="Serif Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane id="alertPane2" fx:id="alertPane2" prefHeight="25.0" prefWidth="387.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc2618" height="25.0" layoutX="63.0" stroke="BLACK" strokeType="INSIDE" width="261.0" />
+            <Text id="alertText" fx:id="alertText2" fill="#ebe5e5" layoutX="63.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="261.0">
+               <font>
+                  <Font name="Serif Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane id="basePane" fx:id="basePane" prefHeight="200.0" prefWidth="400.0">
+         <children>
+            <ChoiceBox id="choiceBoxP1" fx:id="choiceBoxP1" layoutX="257.0" layoutY="51.0" prefHeight="25.0" prefWidth="110.0" />
+            <ChoiceBox id="choiceBoxP2" fx:id="choiceBoxP2" layoutX="257.0" layoutY="101.0" prefHeight="25.0" prefWidth="110.0" />
+            <TextField id="input2" fx:id="input2" layoutX="57.0" layoutY="101.0" />
+            <TextField id="input1" fx:id="input1" layoutX="57.0" layoutY="51.0" />
+            <Label layoutX="14.0" layoutY="105.0" text="Name:" />
+            <Label layoutX="14.0" layoutY="55.0" text="Name:" />
+            <Label layoutX="57.0" layoutY="30.0" text="Player 1" />
+            <Label layoutX="57.0" layoutY="84.0" text="Player 2" />
+            <Button id="okButton" fx:id="okButton" layoutX="55.0" layoutY="150.0" mnemonicParsing="false" onAction="#btnOKClicked" prefHeight="25.0" prefWidth="87.0" text="OK" />
+            <Button id="cancelButton" fx:id="cancelButton" layoutX="280.0" layoutY="150.0" mnemonicParsing="false" onAction="#btnCancelClicked" prefHeight="25.0" prefWidth="87.0" text="Cancel" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,340 @@
+2023-12-03 17:25:06 [main] twoknightsgame.gui.main.Main.main()
+DEBUG: Application starts..
+2023-12-03 17:26:27 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.<init>()
+DEBUG: The board has been created for the match!
+2023-12-03 17:26:27 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.<init>()
+INFO: The board contains of 10x10 tiles!
+2023-12-03 17:26:27 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.initialize()
+DEBUG: The Board is displayed on the GUI
+2023-12-03 17:26:27 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.initialize()
+INFO: The GUI's board contains of a Grid-pane which is filled with panes!
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3c1 point!
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 1,2 point
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e2 tile painted to WHITE
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,2
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:28 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:29 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:29 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3ca point!
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 2,8 point
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@407 tile painted to BLACK
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 2,8
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:30 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3e2 point!
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 2,4 point
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@403 tile painted to WHITE
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 2,4
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:31 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@407 point!
+2023-12-03 17:26:32 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 0,7 point
+2023-12-03 17:26:32 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3c8 tile painted to BLACK
+2023-12-03 17:26:32 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 0,7
+2023-12-03 17:26:32 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:32 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:33 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:33 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@403 point!
+2023-12-03 17:26:35 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 0,3 point
+2023-12-03 17:26:35 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3c4 tile painted to WHITE
+2023-12-03 17:26:35 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 0,3
+2023-12-03 17:26:35 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:35 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3c8 point!
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 1,9 point
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e9 tile painted to BLACK
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,9
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:36 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3c4 point!
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 1,1 point
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e1 tile painted to WHITE
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,1
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:37 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3e9 point!
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 3,8 point
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@426 tile painted to BLACK
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 3,8
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:38 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:39 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:39 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3e1 point!
+2023-12-03 17:26:42 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 2,3 point
+2023-12-03 17:26:42 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@402 tile painted to WHITE
+2023-12-03 17:26:42 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 2,3
+2023-12-03 17:26:42 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:42 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@426 point!
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 5,9 point
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@465 tile painted to BLACK
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 5,9
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:43 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:44 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:44 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@402 point!
+2023-12-03 17:26:45 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 0,2 point
+2023-12-03 17:26:45 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3c3 tile painted to WHITE
+2023-12-03 17:26:45 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 0,2
+2023-12-03 17:26:45 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:45 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@465 point!
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 4,7 point
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@444 tile painted to BLACK
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 4,7
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:46 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3c3 point!
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 1,0 point
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e0 tile painted to WHITE
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,0
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:47 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:48 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:48 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@444 point!
+2023-12-03 17:26:49 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 3,5 point
+2023-12-03 17:26:49 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@423 tile painted to BLACK
+2023-12-03 17:26:49 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 3,5
+2023-12-03 17:26:49 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:49 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:50 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:50 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3e0 point!
+2023-12-03 17:26:51 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 2,2 point
+2023-12-03 17:26:51 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@401 tile painted to WHITE
+2023-12-03 17:26:51 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 2,2
+2023-12-03 17:26:51 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:51 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:52 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:52 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@423 point!
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 5,6 point
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@462 tile painted to BLACK
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 5,6
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:53 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@401 point!
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 1,4 point
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e4 tile painted to WHITE
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,4
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:26:54 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@462 point!
+2023-12-03 17:26:55 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 6,8 point
+2023-12-03 17:26:55 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@483 tile painted to BLACK
+2023-12-03 17:26:55 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 6,8
+2023-12-03 17:26:55 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:55 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:26:56 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:26:56 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@3e4 point!
+2023-12-03 17:26:58 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 2,6 point
+2023-12-03 17:26:58 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@405 tile painted to WHITE
+2023-12-03 17:26:58 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 2,6
+2023-12-03 17:26:58 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:26:58 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@483 point!
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 7,6 point
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@4a0 tile painted to BLACK
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 7,6
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:27:00 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:27:01 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:27:01 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@405 point!
+2023-12-03 17:27:02 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 3,4 point
+2023-12-03 17:27:02 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@422 tile painted to WHITE
+2023-12-03 17:27:02 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 3,4
+2023-12-03 17:27:02 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:27:02 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:27:03 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.blackWantsToStep()
+DEBUG: Black wants to step!
+2023-12-03 17:27:03 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@4a0 point!
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.blackMove()
+DEBUG: BLACK moved to 9,7 point
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@4df tile painted to BLACK
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 9,7
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.whiteWantsToStep()
+DEBUG: White wants to step!
+2023-12-03 17:27:04 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.possibleSteps()
+DEBUG: The possible steps are calculated for twoknightsgame.state.board.Point@422 point!
+2023-12-03 17:27:05 [JavaFX Application Thread] twoknightsgame.state.piece.Knight.whiteMove()
+DEBUG: WHITE moved to 1,3 point
+2023-12-03 17:27:05 [JavaFX Application Thread] twoknightsgame.state.board.SimpleBoard.paint()
+DEBUG: The twoknightsgame.state.board.Point@3e3 tile painted to WHITE
+2023-12-03 17:27:05 [JavaFX Application Thread] twoknightsgame.state.util.WinCalculation.isWon()
+DEBUG: Checking if we've won at point 1,3
+2023-12-03 17:27:05 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.rePrintBoard()
+DEBUG: Reprinting board.
+2023-12-03 17:27:08 [JavaFX Application Thread] twoknightsgame.model.Database.saveGameResultToDB()
+DEBUG: Saved the result of the Game to the Database!
+2023-12-03 17:27:08 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.setWhoseTurn()
+DEBUG: It's a WIN!
+2023-12-03 17:27:08 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.oneMove()
+DEBUG: The step is displayed!
+2023-12-03 17:27:10 [JavaFX Application Thread] twoknightsgame.gui.controller.TwoKnightsGameController.btnExitClicked()
+DEBUG: Button exit clicked!
+2023-12-03 17:27:10 [main] twoknightsgame.gui.main.Main.main()
+DEBUG: Application closed!

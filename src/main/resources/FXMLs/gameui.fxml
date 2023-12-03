@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="twoknightsgame.gui.controller.TwoKnightsGameController">
+   <children>
+      <Button id="exitGame" fx:id="exitGame" layoutX="443.0" layoutY="310.0" mnemonicParsing="false" onAction="#btnExitClicked" text="Exit Game">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Button>
+      <Button id="rankList" fx:id="rankList" layoutX="452.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnTop10Clicked" text="Top 10">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Button>
+      <Text id="whoseTurn" fx:id="whoseTurn" layoutX="393.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's White's turn!" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="407.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Two Knights">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="446.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Text>
+      <Text id="topTen" fx:id="topTen" fill="#3c3b40" layoutX="385.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 10 Players" visible="false" wrappingWidth="214.3427734375">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Text>
+      <GridPane id="gridPane" fx:id="gridPane" layoutX="14.0" layoutY="29.0" prefHeight="340.0" prefWidth="340.0" style="-fx-border-color: black;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="9" />
+         </children>
+      </GridPane>
+      <Pane id="whiteKnight" fx:id="whiteKnight" layoutX="422.0" layoutY="110.0" onMouseClicked="#whiteWantsToStep" prefHeight="33.0" prefWidth="34.0">
+         <children>
+             <ImageView fitHeight="33.0" fitWidth="34.0">
+                 <image>
+                     <Image url="@../Images/whiteknight.png" />
+                 </image>
+             </ImageView>
+         </children>
+      </Pane>
+      <Pane id="blackKnight" fx:id="blackKnight" layoutX="483.0" layoutY="110.0" onMouseClicked="#blackWantsToStep" prefHeight="33.0" prefWidth="34.0">
+         <children>
+            <ImageView id="imageId" fx:id="imageID" fitHeight="33.0" fitWidth="34.0">
+               <image>
+                  <Image url="@../Images/blackknight.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      
+   </children>
+</AnchorPane>
